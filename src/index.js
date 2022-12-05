@@ -1,7 +1,7 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
 import HomePage from "./pages/homePage";
-import sample from './stpries/sampleData'
+import sample from './stories/sampleData'
 //import MovieDetailsPage from './pages/movieDetailsPage'
 
 const movies = [sample, sample, sample, sample, sample, sample, sample];
