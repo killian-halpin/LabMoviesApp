@@ -1,15 +1,15 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
 import HomePage from "./pages/homePage";
-import sample from './stories/sampleData'
-//import MovieDetailsPage from './pages/movieDetailsPage'
+import sample from './stories/sampleData';
+import MovieDetailsPage from './pages/movieDetailsPage';
 
 const movies = [sample, sample, sample, sample, sample, sample, sample];
 
 const App = () => {
   return (
-      <HomePage movies={movies} />
-  );
+      <MovieDetailsPage movie={sample} images={images} />
+      );
 };
 
 const rootElement = createRoot( document.getElementById("root") )
